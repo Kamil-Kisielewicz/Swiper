@@ -1,0 +1,22 @@
+import fb_auth_token
+import tinder_api
+
+# fb_username = "kjk11@att.net"
+# fb_password = "Rainbow.1"
+# fb_access_token = 'EAAiZCUc4Md9EBAFmv3xK6zYCzZCHSOyZC51fIhELQZBuEZBDUZCi9ggh2LWgR9ud1ekbzTafzZCyMcQQv2O5aOtFjXdi2ZBfPepUgZABQKzNDMC4wsjQLFZBWa0NWqoZBct1XqBa2N9TVbvGU9AgbVO44uCHNZCUvm1JjP1G3EIbjAbLdBBCS5ZB1tyrhRLH4KnU5I7kzQEZAU6T9MeQZDZD'
+# fb_user_id = '100008093071585'
+host = 'https://api.gotinder.com'
+#leave tinder_token empty if you don't use phone verification
+tinder_token = 'a8a3c2f2-3ff1-4b11-8eb3-2689d7ab88ef'
+
+# Your real config file should simply be named "config.py"
+# Just insert your fb_username and fb_password in string format
+# and the fb_auth_token.py module will do the rest!
+
+
+"""
+
+Official error: No connection adapters were found for 'fb464891386855067://authorize/#granted_scopes=user_birthday%2Cuser_likes%2Cuser_photos%2Cuser_friends%2Cemail%2Cpublic_profile&denied_scopes=&signed_request=zW65r3Clxcl929DqpqtkYuyYOZSJTyKMvquEqqO8uWk.eyJ1c2VyX2lkIjoiMTUwNzY0MDY2Mjg0OTAyMiIsImNvZGUiOiJBUUM3QmJkS1FBcU5RNGEwR2xVMVlpcUs2TFpLb0hFREh1aEZmVU5vYTBqeWdnWGpQekhWS0Nab3d6RmoyMldFM0ZuTHh4eFc5XzNycmUwUmNoY0RfRm83RlVlUTdQR3l6Z1lXaTI5M2VyWldUeksyUTVhVnY2cjhUUW0tU08tY0tpMVJhV3drSHNlM2dZeTB3OVoydzBRMGh5YnhqYlEwaWlpd05pbGtoRGgyU21JdG5WbTNCUzU1dzBhbV9ZSUhlZnFRMTN0MzRDZkx2NUdsWVh5ay1zaFhFakZsQXZIc2dpWnpsci1vVFhWeDRfZV91UnRsRnJDbmN4czZSUTdKcC04OXlILXAzR01GNTl6MDhCbWtxN3I4TkFic2pLcTVPdHhVLXM2LWxvczZ4Z3FETms2WnUyMHZ1b0xBYldLakNWSmNOdV9fZnE2TnRtM2dSVm5udmhHTXhpT205TmxUMlNCM1NNMW9oWl92cXFJTHdfSW1GU0U4VmpfREhUQk5FSFEiLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTU2NDQ1MjI4OH0&access_token=EAAGm0PX4ZCpsBADShEfD8Eml6gzKkSuerdBeq3bacouWbVuk39juWRU0s8TyOs0WmI7ZCZAzsZACZCvWoG4p6Nt2D8rP113pjL1HqsDq18XNIZCbbJoPN34mryZAGNcVR00lVRXZAHYnqcStj5LKAh6VWPkwkquLpCOL2vMJoSyaygjT7PMBi1YBeeoxCWl2Kp0ZB61nuPbKz3nx0cXRph1L2AjulBZAPbwOKHtowSx7apUgZDZD&data_access_expiration_time=1572228288&expires_in=0&state=%7B%22challenge%22%3A%22IUUkEUqIGud332lfu%252BMJhxL4Wlc%253D%22%2C%220_auth_logger_id%22%3A%2230F06532-A1B9-4B10-BB28-B29956C71AB1%22%2C%22com.facebook.sdk_client_state%22%3Atrue%2C%223_method%22%3A%22sfvc_auth%22%7D'
+
+
+"""

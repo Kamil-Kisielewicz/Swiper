@@ -1,0 +1,12 @@
+import config
+import tinder_api
+
+
+fb_access_token = 'EAAiZCUc4Md9EBAFmv3xK6zYCzZCHSOyZC51fIhELQZBuEZBDUZCi9ggh2LWgR9ud1ekbzTafzZCyMcQQv2O5aOtFjXdi2ZBfPepUgZABQKzNDMC4wsjQLFZBWa0NWqoZBct1XqBa2N9TVbvGU9AgbVO44uCHNZCUvm1JjP1G3EIbjAbLdBBCS5ZB1tyrhRLH4KnU5I7kzQEZAU6T9MeQZDZD'
+fb_user_id = '100008093071585'
+
+a = tinder_api.get_auth_token(config.tinder_token)
+print(a)
+
+b = tinder_api.get_recommendations()
+print(b)
