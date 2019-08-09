@@ -1,10 +1,6 @@
 import fb_auth_token
 import tinder_api
 
-# fb_username = "kjk11@att.net"
-# fb_password = "Rainbow.1"
-# fb_access_token = 'EAAiZCUc4Md9EBAFmv3xK6zYCzZCHSOyZC51fIhELQZBuEZBDUZCi9ggh2LWgR9ud1ekbzTafzZCyMcQQv2O5aOtFjXdi2ZBfPepUgZABQKzNDMC4wsjQLFZBWa0NWqoZBct1XqBa2N9TVbvGU9AgbVO44uCHNZCUvm1JjP1G3EIbjAbLdBBCS5ZB1tyrhRLH4KnU5I7kzQEZAU6T9MeQZDZD'
-# fb_user_id = '100008093071585'
 host = 'https://api.gotinder.com'
 #leave tinder_token empty if you don't use phone verification
 tinder_token = 'a8a3c2f2-3ff1-4b11-8eb3-2689d7ab88ef'
